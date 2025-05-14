@@ -32,6 +32,7 @@ Here’s how the repository is organized:
 │    └── Project-Report.pdf       # Full project report
 ├── README.md                     # Project overview and usage guide
 
+```
 
 ## Technology Stack
 - **Database:** PostgreSQL
