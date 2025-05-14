@@ -23,14 +23,12 @@ Here’s how the repository is organized:
 
 ```
 📁 Stock-Market-Portfolio-Optimization
-├── 📁 data                      # Data files
-│    └── database_backup.backup  # Backup of the PostgreSQL database
-├── 📁 scripts                   # Source code files
-│    ├── analysis.R               # R script for portfolio analysis and optimization
-│    ├── database.sql             # SQL script for database schema and queries
-├── 📁 docs                      # Documentation and reports
-│    └── Project-Report.pdf       # Full project report
-├── README.md                     # Project overview and usage guide
+├── 📁 scripts             # Source code files
+│    ├── analysis.R        # R script for portfolio analysis and optimization
+│    ├── database.sql      # SQL script for database schema and queries
+├── 📁 docs                # Documentation and reports
+│    └── Project-Report.pdf # Full project report
+├── README.md              # Project overview and usage guide
 
 ```
 
@@ -49,8 +47,7 @@ Here’s how the repository is organized:
 
 ### Steps to Run
 1. **Database Setup**:
-   - Restore the database using `backup.sql` from the `data` folder.
-   - Alternatively, initialize the schema using `database.sql` in the `scripts` folder.
+   - Use the `database.sql` script in the `scripts` folder to set up the database schema and populate it with data.
 
 2. **R Analysis**:
    - Open `analysis.R` in RStudio or any R environment.
